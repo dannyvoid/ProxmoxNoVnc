@@ -1,10 +1,9 @@
 // ==UserScript==
 // @name         noVNC Paste for Proxmox
 // @namespace    http://tampermonkey.net/
-// @version      1.1
-// @description  Read & Paste the whole clipboard , count chars , with enhanced visual feedback
-// @author       Wolfyrion (original)
-// @author       Danny Void (fork)
+// @version      1.2
+// @description  Read & Paste the whole clipboard, count chars, with enhanced visual feedback.
+// @author       Wolfyrion (original) Danny Void (fork)
 // @match        https://*/:8006/*
 // @match        https://pve.nxus.site/*
 // @match        https://red.nxus.site/*
