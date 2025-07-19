@@ -22,14 +22,14 @@ To install the script:
 1. Make sure you have **[Violentmonkey](https://violentmonkey.github.io/)** (or Tampermonkey) installed in your browser.
 2. Click the link below to install the script directly:
 
-👉 **[Install Script](https://github.com/wolfyrion/ProxmoxNoVnc/blob/main/proxmoxnovnc.user.js)**
+👉 **[Install Script](https://github.com/dannyvoid/ProxmoxNoVnc/blob/main/proxmoxnovnc.user.js)**
 
 
 ---
 
 ## 💡 Use Case
 
-Perfect for anyone working with Proxmox , no character limits, a fast way to copy  paste with instant visual feedback.
+Perfect for anyone working with Proxmox, no character limits, a fast way to copy  paste with instant visual feedback.
 
 ---
 
