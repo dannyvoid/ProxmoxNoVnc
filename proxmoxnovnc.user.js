@@ -1,15 +1,21 @@
 // ==UserScript==
 // @name         noVNC Paste for Proxmox
 // @namespace    http://tampermonkey.net/
-// @version      1.0
+// @version      1.1
 // @description  Read & Paste the whole clipboard , count chars , with enhanced visual feedback
-// @author       Wolfyrion
+// @author       Wolfyrion (original)
+// @author       Danny Void (fork)
 // @match        https://*/:8006/*
+// @match        https://pve.nxus.site/*
+// @match        https://red.nxus.site/*
 // @include      /^https?:\/\/.*:8006\/.*novnc.*/
+// @include      /^https?:\/\/(?:pve|red)\.nxus\.site\/.*novnc.*/
 // @require      http://code.jquery.com/jquery-3.3.1.min.js
 // @grant        GM_notification
 // @grant        GM_setValue
 // @grant        GM_getValue
+// @updateURL    https://github.com/dannyvoid/ProxmoxNoVnc/raw/main/proxmoxnovnc.user.js
+// @downloadURL  https://github.com/dannyvoid/ProxmoxNoVnc/raw/main/proxmoxnovnc.user.js
 // ==/UserScript==
 
 (function () {
